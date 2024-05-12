@@ -1,0 +1,115 @@
+/* Общие стили */
+* {
+    color: #fafafa;
+    overflow-x: hidden;
+}
+
+html, body {
+    background: #1e1f28!important;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    background: -webkit-linear-gradient(#e47ad5, #6c38cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow-y: hidden;
+}
+
+.btn-primary {
+    width: 100%;
+    background: #6c38cc;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* Общие стили */
+
+/* Шапка сайта */
+.navbar {
+    background: #1e1f28;
+    height: 120px;
+}
+
+.navbar-brand {
+    color: #fafafa;
+}
+
+.navbar-brand:hover {
+    color: #fafafacc;
+}
+
+.navbar-login {
+    color: #fafafa;
+}
+/* Шапка сайта */
+
+/* Главная секция сайта */
+.main-section {
+    background: #101114;
+    min-height: calc(100vh - 170px);
+}
+
+.search-block {
+    width: 100%;
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.search-block label {
+    position: absolute;
+    left: 40px;
+}
+
+#search-input {
+    width: 100%;
+    background: #1e1f28!important;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+#search-input:focus {
+    border: 1px solid #fafafa;
+}
+
+.category-card {
+    background: #1e1f28;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.category-card a {
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background ease .3s;
+}
+.category-card a:hover {
+    background: #101114;
+    transition: background ease .3s;
+}
+/* Главная секция сайта */
+
+
+/* Страница входа*/
+
+/* Страница входа*/
+
+/* Футер */
+footer {
+    background: #1e1f28;
+    height: 50px;
+}
+/* Футер */
