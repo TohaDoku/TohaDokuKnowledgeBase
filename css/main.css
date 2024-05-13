@@ -5,7 +5,7 @@
 }
 
 html, body {
-    background: #1e1f28!important;
+    background: #16171d!important;
 }
 
 p {
@@ -25,6 +25,11 @@ h1, h2, h3, h4, h5, h6 {
     background: #6c38cc;
     padding: 15px;
     border-radius: 10px;
+}
+
+.text-pimary {
+    color: #6c38cc;
+    font-weight: bold;
 }
 /* Общие стили */
 
@@ -104,12 +109,62 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Страница входа*/
+.login-col-one, .login-col-two {
+    padding: 0;
+}
 
+.login-col-one {
+    border-radius: 15px 0 0 15px;
+}
+
+.login-col-two {
+    border-radius: 0 15px 15px 0;
+    background: #1e1f28;
+}
+
+.login-col-two-form {
+    padding: 20px;
+}
+
+.form-custom-input input {
+    background: #16171d;
+    border: none;
+}
+
+.form-custom-input input:focus, .form-custom-input input:valid {
+    background: #16171d;
+    border: none;
+    color: #fafafa;
+    box-shadow: none;
+}
+
+label::after {
+    background: #16171d!important;
+    color: #fafafa!important;
+}
+
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    color: #fafafa;
+}
+
+@media (max-width: 768px) {
+    .login-col-one {
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .login-col-two {
+        border-radius: 0 0 15px 15px;
+    }
+  }
 /* Страница входа*/
 
 /* Футер */
 footer {
     background: #1e1f28;
     height: 50px;
+}
+
+footer p {
+    font-size: 14px;
 }
 /* Футер */
